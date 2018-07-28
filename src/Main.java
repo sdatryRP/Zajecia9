@@ -1,9 +1,25 @@
+import java.util.Arrays;
+import java.util.LinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
 
+        ZadaniaStosKolejka zd = new ZadaniaStosKolejka();
+        LinkedList<String> chlopy = new LinkedList<>(Arrays.asList("Jacek","Wacek","Gienek","Ludwik","Marcinek"));
+        LinkedList<String> baby = new LinkedList<>(Arrays.asList("Mariolka","Daneczka","Michalinda"));
+        zd.zad3(chlopy,baby);
 
-        trojkatrownoramienny(21);
+
+
+
+
+
+
+       // System.out.println(zd.zad1("abcdefg"));
+      //  zd.zad2("jatutaj");
+
+        //trojkatrownoramienny(21);
 
     }
 
