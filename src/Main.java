@@ -1,14 +1,35 @@
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        ZadaniaKolekcje zadania = new ZadaniaKolekcje();
+        System.out.println(new Float(Math.random()*100));
+        zadania.zadanie1();
+        HashMap<String,String> listaPracownikow = new HashMap<>();
+        listaPracownikow.put("aaaA113", "Rafal Kowalski");
+        listaPracownikow.put("bxbx113", "Bartlomiej Kowalski");
+        listaPracownikow.put("BBx113", "Bogdan Kowalski");
+        listaPracownikow.put("Cddx113", "Michal Kowalski");
+
+        System.out.println(zadania.zadanie2(listaPracownikow,"AAAA113"));
+
+
+
+
+
+
+
+
+
+
         ZadaniaStosKolejka zd = new ZadaniaStosKolejka();
         LinkedList<String> chlopy = new LinkedList<>(Arrays.asList("Jacek","Wacek","Gienek","Ludwik","Marcinek"));
         LinkedList<String> baby = new LinkedList<>(Arrays.asList("Mariolka","Daneczka","Michalinda"));
-        zd.zad3(chlopy,baby);
+        //zd.zad3(chlopy,baby);
 
 
 
@@ -16,7 +37,7 @@ public class Main {
 
 
 
-       // System.out.println(zd.zad1("abcdefg"));
+       //         System.out.println(zd.zad1("abcdefg"));
       //  zd.zad2("jatutaj");
 
         //trojkatrownoramienny(21);
